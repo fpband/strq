@@ -1,43 +1,61 @@
 {
-    "name": "Telegram Files Store Bot",
-    "description": "A Telegram Files Store Bot in Pyrogram by @AbirHasan2005",
+    "name": "File Store Bot",
+    "description": "A Telegram Files Store Bot to protect your Files in Pyrogram by @TheTeleRoid",
     "keywords": [
         "telegram",
         "files",
         "store",
         "bot"
     ],
-    "repository": "https://github.com/AbirHasan2005/PyroFilesStoreBot",
-    "website": "https://telegram.dog/AbirHasan2005",
-    "success_url": "https://t.me/Discovery_Updates",
+    "repository": "https://github.com/PredatorHackerzZ/TG-FileStore",
+    "website": "https://telegram.dog/PredatorHackerzZ",
+    "success_url": "https://t.me/TeleRoidGroup",
+    "logo": "https://telegra.ph/file/b39906f572822b3ab82c8.jpg",
     "env": {
-        "API_ID": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+         "API_id": {
+            "description": "Api id telegram",
+            "required": false,
+            "value": "3335796"
         },
-        "API_HASH": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+         "API_HASH": {
+            "description": "Api hash telegram",
+            "required": false,
+            "value": "138b992a0e672e8346d8439c3f42ea78"
         },
-        "BOT_TOKEN": {
-            "description": "Get this from @BotFather XD"
+         "BOT_TOKEN": {
+            "description": "bot telegram token",
+            "required": false,
+            "value": "5171401480:AAETkS3FGnRlbJauRPdPg3BUJFnG0jVa2t0"
         },
-        "BOT_USERNAME": {
-            "description": "Your Bot Username which you sent to @BotFather (Without [@])"
+         "BOT_USERNAME": {
+            "description": "username bot",
+            "required": false,
+            "value": "ir_uploadBot"
         },
-        "DB_CHANNEL": {
-            "description": "The Channel ID which will be used as Database. Example: -100123456789"
+         "DB_CHANNEL": {
+            "description": "log channel id",
+            "required": false,
+            "value": "-1001787336960"
         },
-        "BOT_OWNER": {
-            "description": "Bot Owner UserID"
+         "BOT_OWNER": {
+            "description": "owner id -256",
+            "required": false,
+            "value": "763990585"
         },
-        "DATABASE_URL": {
-            "description": "MongoDB Database URI for Saving UserID for Broadcast."
+         "DATABASE_URL": {
+            "description": "database url",
+            "required": false,
+            "value": "mongodb+srv://abirhasan2005:abirhasan@cluster0.lb2tp.mongodb.net/cluster0?retryWrites=true&w=majority"
         },
-        "UPDATES_CHANNEL": {
-            "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -100123456789",
-            "required": false
+         "UPDATES_CHANNEL": {
+            "description": "update channel username",
+            "required": false,
+            "value": "ir_botz"
         },
-        "LOG_CHANNEL": {
-            "description": "Logs Channel ID for some Tracking XD. Example: -100123456789"
+         "LOG_CHANNEL": {
+            "description": "log channel id -467",
+            "required": false,
+            "value": "-1001787336960"
         },
         "BANNED_USERS": {
             "description": "Banned unwanted members",
